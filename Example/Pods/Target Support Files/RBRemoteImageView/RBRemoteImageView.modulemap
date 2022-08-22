@@ -1,0 +1,6 @@
+framework module RBRemoteImageView {
+  umbrella header "RBRemoteImageView-umbrella.h"
+
+  export *
+  module * { export * }
+}

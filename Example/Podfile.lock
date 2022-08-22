@@ -1,0 +1,16 @@
+PODS:
+  - RBRemoteImageView (0.1.0)
+
+DEPENDENCIES:
+  - RBRemoteImageView (from `../`)
+
+EXTERNAL SOURCES:
+  RBRemoteImageView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  RBRemoteImageView: 44ee4abb51e92a36b4ba9e91611a979288780eb8
+
+PODFILE CHECKSUM: 45b95f61954eec3323c721afe106081dc0b2332f
+
+COCOAPODS: 1.11.2

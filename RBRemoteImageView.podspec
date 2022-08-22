@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'RBRemoteImageView'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of RBRemoteImageView.'
+  s.summary          = 'A subclass on UIImageView that provides remote image download'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,20 +17,18 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.description      = 'A CocoaPod that provides the ability for a UIImageView to be able to download an image and display from a url'
 
-  s.homepage         = 'https://github.com/5929341/RBRemoteImageView'
+  s.homepage         = 'https://github.com/rbmutai/RBRemoteImageView'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { '5929341' => 'rbmutai@gmail.com' }
-  s.source           = { :git => 'https://github.com/5929341/RBRemoteImageView.git', :tag => s.version.to_s }
+  s.author           = { 'Robert Mutai' => 'rbmutai@gmail.com' }
+  s.source           = { :git => 'https://github.com/rbmutai/RBRemoteImageView.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
-
-  s.source_files = 'RBRemoteImageView/Classes/**/*'
+  s.swift_versions = '5.0'
+  s.source_files = 'Classes/**/*.swift'
   
   # s.resource_bundles = {
   #   'RBRemoteImageView' => ['RBRemoteImageView/Assets/*.png']

@@ -7,12 +7,17 @@
 //
 
 import UIKit
+import RBRemoteImageView
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        let imageurl="https://avatars.githubusercontent.com/u/5729345?s=96&v=4"
+        let remoteimage=RBRemoteImageView(frame: CGRect(x: 10, y: 10, width: 100, height: 100))
+        remoteimage.downloadedFrom(link: imageurl, contentMode: .scaleAspectFit)
+        view.addSubview(remoteimage)
     }
 
     override func didReceiveMemoryWarning() {

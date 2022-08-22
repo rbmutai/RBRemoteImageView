@@ -1,0 +1,22 @@
+{
+  "name": "RBRemoteImageView",
+  "version": "0.1.0",
+  "summary": "A short description of RBRemoteImageView.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/5929341/RBRemoteImageView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "5929341": "rbmutai@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/5929341/RBRemoteImageView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "RBRemoteImageView/Classes/**/*"
+}
