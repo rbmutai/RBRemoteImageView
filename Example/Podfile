@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'RBRemoteImageView_Example' do
+  pod 'RBRemoteImageView', :path => '../'
+
+  target 'RBRemoteImageView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
