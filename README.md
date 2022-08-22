@@ -7,9 +7,16 @@
 
 ## Example
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+    ```Swift
+        let imageurl="https://your_remote_image_url"
+        let remoteimageview=RBRemoteImageView(frame: CGRect(x: 10, y: 10, width: 100, height: 100))
+        remoteimageview.downloadedFrom(link: imageurl, contentMode: .scaleAspectFit)
+        view.addSubview(remoteimageview)
+    ```
 
 ## Requirements
+
+Swift 10 and above
 
 ## Installation
 
@@ -22,7 +29,7 @@ pod 'RBRemoteImageView'
 
 ## Author
 
-5929341, rbmutai@gmail.com
+Robert Mutai
 
 ## License
 

@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'RBRemoteImageView'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'A subclass on UIImageView that provides remote image download'
 
 # This description is used to generate tags and improve search results.
